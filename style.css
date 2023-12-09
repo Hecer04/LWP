@@ -2,6 +2,13 @@
  padding: 0;
  margin: 0;
  box-sizing: border-box;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+  cursor: pointer;
+}
+*button{
+  cursor: pointer;
 }
 .contanier{
     max-width: 1500px;
@@ -315,20 +322,276 @@
       background-color:slateblue;
  }
  .LWP{
- width:100%;
- height: 700px;
- background-color: aquamarine;
+  max-width:100%;
+ height: 500px;
+ background-color: white;
+ display: flex;
+ gap: 150px;
  }
-  .LWP202{
-  width: 300px;
+ .LWP202{
+  width: 400px;
   height: 300px;
-  background-color: white;
-
+  margin-top: 100px;
+  margin-left: 100px;
   }
   .LWP102{
-    width: 500px;
-    height: 300px;
-    background-color:
-  
+  background-color:bisque;
+  width: 500px;
+  height: 300px;
+  margin-top: 100px;
+  }
+  .add{
+    width: 200px;
+    height: 50px;
+    background-color: slateblue;
+    color: black;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:auto;
+    transition: 4px all;
+    margin-top: 30px;
+    border: 1px solid slateblue;
+  }
+    .add:hover{
+  background-color:white;
     }
+    .aaa{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+     
+    background:url(https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp)
+    }
+    .cart{
+      width: 600px;
+      
+    }
+    .bbb{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      height: 200px;
+    background:url(https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp)
+     }
+     .ccc{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      height: 200px;
+    background:url(https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp)
+     }
+     .nil{
+      width: 300px;
+      height: 100px;
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 20px;
+     }
+     .nil1{
+      width: 250px;
+      height: 100px;
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 20px;
+     }
+     .qar{
+     color: black;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 16px;
+     line-height: 1.65s;
+     }
+     .nil2{
+      width: 250px;
+      height: 100px;
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 20px;
+     }
+     .deniz{
+      width: 250px;
+      height: 100px;
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 20px;
+     }
+     .deniz1{
+      width: 250px;
+      height: 100px;
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 20px;
+     }.deniz2{
+      width: 250px;
+      height: 100px;
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 20px;
+     }
+     .photo{
+     width: 100%;
+     height: 400px;
+     background-color:white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 100px;
     
+     }
+     .photo1{
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* cursor: alias;
+      transition: all 2s;
+     }
+     .photo1:hover{
+      background-color: grey; */
+     }
+     .photo2{
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: alias;
+     }
+     .photo3{
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: alias;
+     }
+     .photo3{
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: alias;
+     }
+     .photo4{
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: alias;
+     }
+     .photo5{
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: alias;
+     }
+     .intel{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     .intel1{
+      width: 600px;
+      height: 90px;
+      color: black;
+      font-size: 30px;
+     }
+     .image{
+     width: 100%;
+     height: 600px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 100px;
+     margin-bottom: 100px;
+     }
+     .image1{
+     width: 550px;
+     height: 300px;
+     }
+     .button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     }
+     #travel1{
+     width: 60px;
+     height: 20px;
+     cursor: auto;
+     background-color:slateblue;
+     gap: 40px;
+     }
+     #travel1:hover{
+      background-color: white;
+     }
+     #Lifestyle1{
+      width: 60px;
+      height: 20px;
+      cursor: auto;
+      background-color:slateblue;
+      gap: 40px;
+     align-items: center;
+      }
+      #Lifestyle1:hover{
+       background-color: white;
+      }
+     .image2{
+      width: 550px;
+      height: 300px;
+     }
+     .B{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        height: 500px;
+       background:url(https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg);
+       }
+       .B1{
+       width: 28%;
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+       }
+       h2{
+        color: white;
+       }
+       ul{
+        list-style: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        cursor: auto;
+        gap: 20px;
+       }
+       li{
+        transition: all 1s;
+       }
+       ul li:hover{
+        color: slateblue;
+       }
+       .B2{
+        width: 28%;
+        height: 150px;
+        color: white;
+       }
+       .B3{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+       }
